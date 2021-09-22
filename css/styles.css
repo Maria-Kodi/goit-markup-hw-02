@@ -1,0 +1,37 @@
+.page {
+  background-color: #e5e5e5;
+}
+
+.logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-style: bold;
+  font-size: 26px;
+  line-height: 31px;
+  line-height: 100%;
+  align: left;
+  vertical-align: top;
+  letter-spacing: 3%;
+}
+
+.studio {
+  color: #0000;
+}
+.nav {
+  color: #212121;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.auto-nav {
+}
+.button-type {
+}
+.studio-second {
+}
