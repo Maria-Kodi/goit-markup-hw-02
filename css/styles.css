@@ -15,7 +15,8 @@
 }
 
 .studio {
-  color: #0000;
+  fill: Solid;
+  color: #000000;
 }
 .nav {
   color: #212121;
@@ -30,8 +31,81 @@
 }
 
 .auto-nav {
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 16px;
+  line-height: 100%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 2%;
+  fill: Solid;
+  color: #212121;
 }
 .button-type {
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 26px;
+  line-height: 139%;
+  align: center;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  fill: Solid;
+  color: #212121;
 }
 .studio-second {
+  fill: Solid;
+  color: #ffffff;
+}
+h2 {
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 36px;
+  line-height: 171%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 6%;
+  fill: Solid;
+  color: #212121;
+}
+.name {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 30px;
+  line-height: 160%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  fill: Solid;
+  color: #757575;
+}
+.frame {
+  color: #2f303a;
+}
+.address {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 24px;
+  line-height: 146%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  fill: Solid;
+  color: #ffffff;
+}
+.contacts {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 24px;
+  line-height: 146%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  fill: Solid;
+  color: rgba (255, 255, 255, 0.6);
 }
