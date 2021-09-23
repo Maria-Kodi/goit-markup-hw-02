@@ -9,7 +9,6 @@
   font-size: 26px;
   line-height: 31px;
   line-height: 100%;
-  align: left;
   vertical-align: top;
   letter-spacing: 3%;
 }
@@ -29,14 +28,23 @@
   letter-spacing: 0.02em;
   text-align: left;
 }
-
+.nav-second {
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 16px;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 2%;
+  fill: Solid;
+  color: #2196f3;
+}
 .auto-nav {
   font-family: Roboto;
   font-style: Medium;
   font-size: 14px;
   line-height: 16px;
   line-height: 100%;
-  align: Left;
   vertical-align: Top;
   letter-spacing: 2%;
   fill: Solid;
@@ -48,11 +56,19 @@
   font-size: 16px;
   line-height: 26px;
   line-height: 139%;
-  align: center;
   vertical-align: Top;
   letter-spacing: 3%;
   fill: Solid;
   color: #212121;
+  cursor: pointer;
+}
+.all {
+  fill: Solid;
+  color: #ffffff;
+}
+.all-color {
+  fill: Solid;
+  color: #2196f3;
 }
 .studio-second {
   fill: Solid;
@@ -64,7 +80,6 @@ h2 {
   font-size: 18px;
   line-height: 36px;
   line-height: 171%;
-  align: Left;
   vertical-align: Top;
   letter-spacing: 6%;
   fill: Solid;
@@ -76,13 +91,13 @@ h2 {
   font-size: 16px;
   line-height: 30px;
   line-height: 160%;
-  align: Left;
   vertical-align: Top;
   letter-spacing: 3%;
   fill: Solid;
   color: #757575;
 }
 .frame {
+  fill: solid;
   color: #2f303a;
 }
 .address {
@@ -91,21 +106,19 @@ h2 {
   font-size: 14px;
   line-height: 24px;
   line-height: 146%;
-  align: Left;
   vertical-align: Top;
   letter-spacing: 3%;
   fill: Solid;
   color: #ffffff;
 }
-.contacts {
+.auto-second {
   font-family: Roboto;
   font-style: Regular;
   font-size: 14px;
   line-height: 24px;
   line-height: 146%;
-  align: Left;
   vertical-align: Top;
   letter-spacing: 3%;
   fill: Solid;
-  color: rgba (255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
