@@ -1,124 +1,155 @@
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --second-main-color: #212121;
+}
+body {
+  background-color: var(--second-color);
+  color: var(--primary-text-color);
+}
 .page {
   background-color: #e5e5e5;
 }
-
+ul {
+  list-style: none;
+}
+.shadow:focus {
+  color: var(--accent-color);
+}
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
+  text-decoration: none;
   font-family: Raleway;
   font-style: bold;
   font-size: 26px;
-  line-height: 31px;
-  line-height: 100%;
+  line-height: 1.19;
   vertical-align: top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
-
+.first-link > .studio {
+  color: var(--title-text-color);
+}
 .studio {
   fill: Solid;
-  color: #000000;
+  color: var(--title-text-color);
 }
+
 .nav {
-  color: #212121;
+  color: var(--second-main-color);
   text-decoration: none;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
 }
 .nav-second {
   font-family: Roboto;
+  text-decoration: none;
   font-style: Medium;
   font-size: 14px;
-  line-height: 16px;
-  line-height: 100%;
+  line-height: 1.14;
   vertical-align: Top;
   letter-spacing: 2%;
   fill: Solid;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .auto-nav {
   font-family: Roboto;
   font-style: Medium;
   font-size: 14px;
-  line-height: 16px;
-  line-height: 100%;
+  line-height: 1.14;
   vertical-align: Top;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   fill: Solid;
-  color: #212121;
+  color: var(--second-main-color);
+  text-decoration: none;
 }
 .button-type {
   font-family: Roboto;
+  text-decoration: none;
   font-style: Medium;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   line-height: 139%;
   vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   fill: Solid;
-  color: #212121;
+  color: var(--second-main-color);
+}
+.button-primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
   cursor: pointer;
+  border-color: var(--accent-color);
 }
-.all {
-  fill: Solid;
-  color: #ffffff;
-}
-.all-color {
-  fill: Solid;
-  color: #2196f3;
+.button-link {
+  color: var(--second-main-color);
+  background-color: #e5e5e5;
+  cursor: pointer;
+  border-color: #e5e5e5;
 }
 .studio-second {
   fill: Solid;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 h2 {
   font-family: Roboto;
   font-style: Bold;
   font-size: 18px;
-  line-height: 36px;
+  text-decoration: none;
+  line-height: 2;
   line-height: 171%;
   vertical-align: Top;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   fill: Solid;
-  color: #212121;
+  color: var(--second-main-color);
 }
 .name {
   font-family: Roboto;
   font-style: Regular;
   font-size: 16px;
-  line-height: 30px;
+  text-decoration: none;
+  line-height: 1.8;
   line-height: 160%;
   vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   fill: Solid;
   color: #757575;
+}
+.link {
+  color: var(--title-text-color);
+  text-decoration: none;
 }
 .frame {
   fill: solid;
   color: #2f303a;
 }
-.address {
+.address-name {
   font-family: Roboto;
   font-style: Regular;
   font-size: 14px;
-  line-height: 24px;
+  text-decoration: none;
+  line-height: 1.7;
   line-height: 146%;
   vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   fill: Solid;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .auto-second {
   font-family: Roboto;
   font-style: Regular;
   font-size: 14px;
-  line-height: 24px;
+  text-decoration: none;
+  line-height: 1.7;
   line-height: 146%;
   vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   fill: Solid;
   color: rgba(255, 255, 255, 0.6);
 }
