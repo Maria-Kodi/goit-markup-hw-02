@@ -10,7 +10,7 @@
 body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
 .page {
   background-color: var(--background-color);
@@ -21,48 +21,67 @@ ul {
 .shadow:focus {
   color: var(--accent-color);
 }
+.first-link:hover,
+.first-link:focus {
+  color: var(--accent-color);
+}
+.studio:hover,
+.studio:focus {
+  color: var(--accent-color);
+}
+.nav:hover,
+.nav:focus {
+  color: var(--accent-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.auto-nav:hover,
+.auto-nav:focus {
+  color: var(--accent-color);
+}
 .logo {
   color: var(--accent-color);
   text-decoration: none;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: bold;
   font-size: 26px;
   line-height: 1.19;
   vertical-align: top;
   letter-spacing: 0.03em;
 }
-.first-link > .studio {
-  color: var(--title-text-color);
-}
+.first-link,
 .studio {
-  fill: Solid;
   color: var(--title-text-color);
 }
-
 .nav {
   color: var(--second-main-color);
   text-decoration: none;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
 }
+.nav-second:hover,
+.nav-second:focus {
+  color: var(--accent-color);
+}
 .nav-second {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   font-style: Medium;
   font-size: 14px;
   line-height: 1.14;
   vertical-align: Top;
-  letter-spacing: 2%;
+  letter-spacing: 0.002em;
   fill: Solid;
   color: var(--accent-color);
 }
 .auto-nav {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: Medium;
   font-size: 14px;
   line-height: 1.14;
@@ -73,22 +92,30 @@ ul {
   text-decoration: none;
 }
 .button-type {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   font-style: Medium;
   font-size: 16px;
   line-height: 1.62;
-  line-height: 139%;
   vertical-align: Top;
   letter-spacing: 0.03em;
   fill: Solid;
   color: var(--second-main-color);
 }
+.button-primary:hover,
+.button-primary:focus {
+  color: var(--accent-color);
+}
+
 .button-primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
   border-color: var(--accent-color);
+}
+.button-link:hover,
+.button-link:focus {
+  color: var(--accent-color);
 }
 .button-link {
   color: var(--second-main-color);
@@ -96,12 +123,16 @@ ul {
   cursor: pointer;
   border-color: var(--background-color);
 }
+.studio-second:hover,
+.studio-second:focus {
+  color: var(--accent-color);
+}
 .studio-second {
   fill: Solid;
   color: var(--primary-white-color);
 }
 h2 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: Bold;
   font-size: 18px;
   text-decoration: none;
@@ -113,8 +144,7 @@ h2 {
   color: var(--second-main-color);
 }
 .name {
-  font-family: Roboto;
-  font-style: Regular;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   text-decoration: none;
   line-height: 1.8;
@@ -132,9 +162,12 @@ h2 {
   fill: solid;
   color: #2f303a;
 }
+.address-name:hover,
+.address-name:focus {
+  color: var(--accent-color);
+}
 .address-name {
-  font-family: Roboto;
-  font-style: Regular;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   text-decoration: none;
   line-height: 1.7;
@@ -143,13 +176,15 @@ h2 {
   fill: Solid;
   color: var(--primary-white-color);
 }
+.auto-second:hover,
+.auto-second:focus {
+  color: var(--accent-color);
+}
 .auto-second {
-  font-family: Roboto;
-  font-style: Regular;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   text-decoration: none;
   line-height: 1.7;
-  line-height: 146%;
   vertical-align: Top;
   letter-spacing: 0.03em;
   fill: Solid;
@@ -157,8 +192,7 @@ h2 {
 }
 
 .main-header {
-  font-family: Roboto Black;
-  font-style: Regular;
+  font-family: "Roboto" black, sans-serif;
   font-size: 44px;
   line-height: 1.36;
   vertical-align: Top;
@@ -167,7 +201,7 @@ h2 {
   color: var(--primary-white-color);
 }
 .second-header {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: Bold;
   font-size: 36px;
   line-height: 1.16;
@@ -177,7 +211,7 @@ h2 {
   color: var(--second-main-color);
 }
 .worker {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: Medium;
   font-size: 16px;
   line-height: 1.18;
@@ -187,21 +221,19 @@ h2 {
   color: var(--second-main-color);
 }
 .subtitle {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: Bold;
   font-size: 14px;
-  line-height: 16px;
-  line-height: 100%;
+  line-height: 1.14;
   vertical-align: Top;
   letter-spacing: 0.03em;
   fill: Solid;
   color: var(--second-main-color);
 }
 .description {
-  font-family: Roboto;
-  font-style: Regular;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   vertical-align: Top;
   letter-spacing: 0.03;
   fill: Solid;
