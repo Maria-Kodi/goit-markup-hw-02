@@ -21,10 +21,6 @@ ul {
 .shadow:focus {
   color: var(--accent-color);
 }
-.first-link:hover,
-.first-link:focus {
-  color: var(--accent-color);
-}
 .studio:hover,
 .studio:focus {
   color: var(--accent-color);
@@ -45,13 +41,11 @@ ul {
   color: var(--accent-color);
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  font-style: bold;
   font-size: 26px;
   line-height: 1.19;
   vertical-align: top;
   letter-spacing: 0.03em;
 }
-.first-link,
 .studio {
   color: var(--title-text-color);
 }
@@ -72,34 +66,28 @@ ul {
 .nav-second {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  font-style: Medium;
   font-size: 14px;
   line-height: 1.14;
   vertical-align: Top;
   letter-spacing: 0.002em;
-  fill: Solid;
   color: var(--accent-color);
 }
 .auto-nav {
   font-family: "Roboto", sans-serif;
-  font-style: Medium;
   font-size: 14px;
   line-height: 1.14;
   vertical-align: Top;
   letter-spacing: 0.02em;
-  fill: Solid;
   color: var(--second-main-color);
   text-decoration: none;
 }
 .button-type {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  font-style: Medium;
   font-size: 16px;
   line-height: 1.62;
   vertical-align: Top;
   letter-spacing: 0.03em;
-  fill: Solid;
   color: var(--second-main-color);
 }
 .button-primary:hover,
@@ -128,19 +116,15 @@ ul {
   color: var(--accent-color);
 }
 .studio-second {
-  fill: Solid;
   color: var(--primary-white-color);
 }
 h2 {
   font-family: "Roboto", sans-serif;
-  font-style: Bold;
   font-size: 18px;
   text-decoration: none;
   line-height: 2;
-  line-height: 171%;
   vertical-align: Top;
   letter-spacing: 0.06em;
-  fill: Solid;
   color: var(--second-main-color);
 }
 .name {
@@ -148,10 +132,8 @@ h2 {
   font-size: 16px;
   text-decoration: none;
   line-height: 1.8;
-  line-height: 160%;
   vertical-align: Top;
   letter-spacing: 0.03em;
-  fill: Solid;
   color: var(--primary-gray-color);
 }
 .link {
@@ -159,7 +141,6 @@ h2 {
   text-decoration: none;
 }
 .frame {
-  fill: solid;
   color: #2f303a;
 }
 .address-name:hover,
@@ -173,7 +154,6 @@ h2 {
   line-height: 1.7;
   vertical-align: Top;
   letter-spacing: 0.03em;
-  fill: Solid;
   color: var(--primary-white-color);
 }
 .auto-second:hover,
@@ -187,47 +167,39 @@ h2 {
   line-height: 1.7;
   vertical-align: Top;
   letter-spacing: 0.03em;
-  fill: Solid;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .main-header {
-  font-family: "Roboto" black, sans-serif;
+  font-family: "Roboto" black;
   font-size: 44px;
   line-height: 1.36;
   vertical-align: Top;
   letter-spacing: 0.06em;
-  fill: Solid;
   color: var(--primary-white-color);
 }
 .second-header {
   font-family: "Roboto", sans-serif;
-  font-style: Bold;
   font-size: 36px;
   line-height: 1.16;
   vertical-align: Top;
   letter-spacing: 0.03em;
-  fill: Solid;
   color: var(--second-main-color);
 }
 .worker {
   font-family: "Roboto", sans-serif;
-  font-style: Medium;
   font-size: 16px;
   line-height: 1.18;
   vertical-align: Top;
   letter-spacing: 0.03em;
-  fill: Solid;
   color: var(--second-main-color);
 }
 .subtitle {
   font-family: "Roboto", sans-serif;
-  font-style: Bold;
   font-size: 14px;
   line-height: 1.14;
   vertical-align: Top;
   letter-spacing: 0.03em;
-  fill: Solid;
   color: var(--second-main-color);
 }
 .description {
@@ -235,7 +207,6 @@ h2 {
   font-size: 14px;
   line-height: 1.71;
   vertical-align: Top;
-  letter-spacing: 0.03;
-  fill: Solid;
+  letter-spacing: 0.03em;
   color: var(--primary-gray-color);
 }
