@@ -30,8 +30,7 @@ ul {
   color: var(--accent-color);
 }
 .logo:hover,
-.logo:focus,
-.logo:active {
+.logo:focus {
   color: var(--accent-color);
 }
 .auto-nav:hover,
@@ -61,7 +60,8 @@ ul {
   text-align: left;
 }
 .nav-second:hover,
-.nav-second:focus {
+.nav-second:focus,
+.active {
   color: var(--accent-color);
 }
 .nav-second {
