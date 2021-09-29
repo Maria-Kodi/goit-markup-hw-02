@@ -26,6 +26,9 @@ ul {
 .dark-logo {
   color: var(--title-text-color);
 }
+.white-logo {
+  color: var(--primary-white-color);
+}
 .nav {
   color: var(--second-main-color);
   text-decoration: none;
@@ -48,8 +51,8 @@ ul {
   letter-spacing: 0.002em;
   color: var(--accent-color);
 }
-.logo:focus .logo:hover,
-.logo:focus,
+.button-primary:hover,
+.button-primary:focus,
 .auto-nav:hover,
 .auto-nav:focus,
 .auto-second:hover,
@@ -58,10 +61,14 @@ ul {
 .nav:focus,
 .address-name:hover,
 .address-name:focus,
-.button-link:hover,
-.button-link:focus,
+.all:hover,
+.all:focus,
 .active {
   color: var(--accent-color);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
 }
 .button-primary {
   font-weight: 700;
@@ -73,7 +80,20 @@ ul {
   background-color: var(--accent-color);
   cursor: pointer;
 }
-.button-all {
+.button {
+  color: var(--second-main-color);
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.all {
+  border-radius: 4px;
+  border: none;
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
@@ -81,26 +101,6 @@ ul {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  border: none;
-  width: 73px;
-  height: 38px;
-  left: 510px;
-  top: 212px;
-}
-.button-link {
-  border: 1px solid #000000;
-  font-family: "Roboto";
-  border-radius: 4px;
-  border: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  background-color: #f5f4fa;
-  color: var(--second-main-color);
-}
-.white-logo {
-  color: var(--primary-white-color);
 }
 .header-name {
   font-size: 18px;
